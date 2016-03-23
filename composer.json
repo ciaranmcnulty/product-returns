@@ -1,0 +1,17 @@
+{
+    "require": {
+        "behat/behat": "~3.0",
+        "behat/mink-extension": "~2.2",
+        "ciaranmcnulty/behat-localwebserverextension": "~1.1",
+        "behat/mink-goutte-driver": "~1.2",
+        "phpspec/phpspec": "~2.5"
+    },
+    "config" : {
+        "bin-dir" : "bin"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "" : "src"
+        }
+    }
+}

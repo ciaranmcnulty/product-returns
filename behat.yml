@@ -1,0 +1,11 @@
+default:
+  suites:
+    core:
+      contexts: [ ReturnsContext ]
+  extensions:
+    Behat\MinkExtension:
+      base_url:  'http://dev.local:9001'
+      sessions:
+        default:
+          goutte: ~
+    Cjm\Behat\LocalWebserverExtension: ~
